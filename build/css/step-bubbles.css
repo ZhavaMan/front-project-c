@@ -1,0 +1,68 @@
+.step-bubbles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+  
+.bubble {
+  color: #ffffff;
+  font-family: 'HelveticaNeue';
+  background-color: #e5e5e5;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+
+}
+
+.step-bubbles .step-in {
+
+  background-color: #e66700;
+}
+
+.step:nth-child(odd)::after {
+  position: absolute;
+  font-size: 12px;
+  font-family: 'HelveticaNeue-Thin';
+  color: #4a4a4a;
+  margin-top: 16px;
+}
+
+.step:nth-child(1)::after {
+  content: "Características";
+  margin-left: -19px;
+}
+
+.step:nth-child(3)::after {
+  content: "Fotos";
+  margin-left: 3.5px;
+}
+
+.step:nth-child(5)::after {
+  content: "Precio";
+  margin-left: 1.5px;
+}
+
+.step:nth-child(7)::after {
+  content: "T&C";
+  margin-left: 7px;
+}
+
+.step:nth-child(9)::after {
+  content: "Documentación";
+  margin-left: -19px;
+}
+
+.linkage {
+  display: inline-block;
+  background-color: #e5e5e5;
+  height: 1px;
+  width: 68px;
+
+}
+  
